@@ -1,0 +1,5 @@
+# Activated with: mvn spring-boot:run -Dspring-boot.run.profiles=seed
+# Loads 100,000 demo employees on first start (skipped automatically if employees already exist).
+peoplehub:
+  seed:
+    enabled: true
